@@ -26,11 +26,12 @@ function Header() {
                 </div>
 
                 <div className='login'>
-                    <button>Login<img src={login} alt='login' /></button>
+                    <button><p>Login </p></button>
+                    <img src={login} alt='login' />
                 </div>
 
                 <div className='cart'>
-                    <button><img src={cart} alt='cart' />Cart</button>
+                    <button><img src={cart} alt='cart' /><p>Cart</p></button>
                 </div>
             </div>
         </div>

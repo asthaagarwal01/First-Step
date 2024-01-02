@@ -1,3 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: SF Pro Display;
+}
+
+button{
+    cursor: pointer;
+}
+
 .header
 {
     height: 8vh;
@@ -5,5 +15,122 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.2rem 6rem;
+    padding: 0.5rem 0;
+    padding-left: 5rem;
+    padding-right: 2rem;
 }
+
+.second
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 2.3rem;
+    padding: 0.1rem 0.4rem;
+    padding-left: 0.8rem;
+    width: 20rem;
+    height: 2.5rem;
+    transform: translate(50%,0%);
+}
+
+.search button
+{
+    margin-top: 0.3rem;
+    cursor: pointer;
+}
+
+
+.search input,.search button
+{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.second
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul 
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul li a
+{
+    text-decoration: none;
+    margin: 1rem;
+    color: white;
+}
+
+.login
+{
+    margin: 0 2rem;
+    background-color: #FBEDFF;
+    outline: none;
+    border: none;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0.15rem 1.4rem;
+}
+
+.login button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    
+    margin: 0.2rem;
+   padding: 0.3rem 0;
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cart
+{
+    margin: 0 2rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.cart button
+{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+}
+
+.cart p
+{
+    margin: 0 0.5rem;
+}
+
+
