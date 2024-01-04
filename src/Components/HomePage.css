@@ -1,0 +1,63 @@
+.categories,.label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 4rem;
+}
+
+.categories img
+{
+    width: 7rem;
+    height: 6rem;
+}
+
+
+.label{
+    text-align: center;
+    padding-right: 4rem;
+    padding-top: 0.2rem ;
+
+}
+.labels
+{
+    text-align: center;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+   
+}
+
+.name
+{
+    color: #FF6A49;
+}
+
+.slider
+{
+    width: 80%;
+    border-radius: 3rem;
+    padding: 2rem 2rem;
+    background: radial-gradient(50% 50% at 50% 50%, #6A287E 0%, #290B32 100%);
+    box-shadow: 0px 4px 23px 0px rgba(69, 24, 83, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.product
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.speciality
+{
+    padding: 5rem 4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}

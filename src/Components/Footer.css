@@ -1,0 +1,79 @@
+.footer
+{
+    background-color: #6A287E;
+    padding: 3rem 6rem;
+    color: white;
+}
+
+.section
+{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+
+
+
+.content{
+    transform: translate(50%,0%);
+}
+
+
+.content ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    
+}
+
+.content ul li
+{
+    padding-bottom: 0.3rem;
+    
+}
+
+.right
+{
+    width: 18%;
+}
+
+#copy
+{
+    text-align: center;
+    margin: 1rem;
+}
+
+hr{
+    height: 0.05rem;
+    width: 80rem;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.logoo,.links,.query
+{
+    margin-bottom: 1.5rem;
+}
+
+.query{
+    color: #FFE023;
+}
+
+.right input{
+    margin-top: 1.5rem;
+    padding: 0.6rem 1rem;
+    background-color: #481D55;
+    border-radius: 0.3rem ;
+    border: none;
+    outline: none;
+
+}
+
+.right input::placeholder {
+    color: white;
+  }
+  
