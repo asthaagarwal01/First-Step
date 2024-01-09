@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomePage.css';
+import JoinButton from './JoinButton';
 import Best from '../Assets/images/Bestoffers.png';
 import shoe1 from '../Assets/images/shoe1.png';
 import shoe2 from '../Assets/images/shoe2.png';
@@ -7,6 +8,9 @@ import shoe3 from '../Assets/images/shoe3.png';
 import shoe4 from '../Assets/images/shoe4.png';
 import shoe5 from '../Assets/images/shoe5.png';
 import shoe6 from '../Assets/images/shoe6.png';
+import shoe7 from '../Assets/images/shoe7.png';
+import shoe8 from '../Assets/images/shoe8.png';
+import shoe9 from '../Assets/images/shoe9.png';
 import logo from '../Assets/images/Logo.png';
 import brand1 from '../Assets/images/brand1.png';
 
@@ -80,26 +84,33 @@ function HomePage() {
 
             <div className='speciality'>
                 <div className='slider'>
-                    <div className='product'>
-                        <div className='big_shoe'>
-                            <img />
+                    <div className='main'>
+                        <div className='left'>
+                            <button><i
+                                className="fas fa-chevron-down"
+                                style={{ transform: 'rotate(90deg)' }}
+                            ></i></button>
                         </div>
-                        <div className='content'>
-                            <div className='images'>
-                                <img src={logo} />
-                                <img src={shoe6} />
+                        <div className='product'>
+                            <div className='big_shoe'>
+                                <img src={shoe6} style={{ width: '18rem', height: '12rem' }} />
                             </div>
-                            <div className='prices'>
-                                <p id='head'>
-                                    Puma 360 Pro<br />Light weight | White
-                                </p>
-                                <p id='light'><s>₹5,999</s> From ₹2,999</p>
-                                <p id='small'>Most Comfortable Shoe Under 2K</p>
+                            <div className='content'>
+                                <div className='images'>
+                                    <img src={logo} />
+                                    <img src={brand1} />
+                                </div>
+                                <div className='prices'>
+                                    <h3 id='head'>
+                                        Puma 360 Pro<br />Light weight | White
+                                    </h3>
+                                    <p id='light'><s>₹5,999</s> From ₹2,999</p>
+                                    <p id='small'>Most Comfortable Shoe Under 2K</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    {/*<div className='product'>
+                        {/*<div className='product'>
                         <div className='big_shoe'>
                             <img />
                         </div>
@@ -155,6 +166,42 @@ function HomePage() {
                             </div>
                         </div>
                     </div> */}
+
+                        <div className='aright'>
+                            <button><i
+                                className="fas fa-chevron-down"
+                                style={{ transform: 'rotate(-90deg)' }}
+                            ></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='step'>
+
+
+                <div className='points'>
+                    <h3>About Step +</h3>
+                    <h1>Unlock the best of the<br />deals with step+</h1>
+                    <ul>
+                        <li>Early access to season sales</li>
+                        <li>Free shiping on minimum value orders as well</li>
+                        <li>Speical collection early access</li>
+                        <li>Exciting discounts</li>
+                    </ul>
+                    <JoinButton />
+                </div>
+
+                <div className='showcase'>
+                    <div className='shelf'>
+                        <img src={shoe7} alt='shoe' />
+                    </div>
+                    <div className='shelf'>
+                        <img src={shoe8} alt='shoe' />
+                    </div>
+                    <div className='shelf'>
+                        <img src={shoe9} alt='shoe' />
+                    </div>
                 </div>
             </div>
 

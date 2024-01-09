@@ -1,4 +1,5 @@
-.categories,.label{
+.categories,
+.label {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,37 +7,34 @@
     padding: 1.5rem 4rem;
 }
 
-.categories img
-{
+.categories img {
     width: 7rem;
     height: 6rem;
 }
 
 
-.label{
+.label {
     text-align: center;
     padding-right: 4rem;
-    padding-top: 0.2rem ;
+    padding-top: 0.2rem;
 
 }
-.labels
-{
+
+.labels {
     text-align: center;
     border-radius: 2rem;
     padding: 0.5rem 2rem;
-   
+
 }
 
-.name
-{
+.name {
     color: #FF6A49;
 }
 
-.slider
-{
-    width: 80%;
+.slider {
+    width: 90%;
     border-radius: 3rem;
-    padding: 2rem 2rem;
+    padding: 2rem 3rem;
     background: radial-gradient(50% 50% at 50% 50%, #6A287E 0%, #290B32 100%);
     box-shadow: 0px 4px 23px 0px rgba(69, 24, 83, 0.25);
     display: flex;
@@ -45,19 +43,70 @@
     justify-content: center;
 }
 
-.product
-{
+.product {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+
+    color: white;
 }
 
-.speciality
-{
-    padding: 5rem 4rem;
+.speciality {
+    padding: 5rem 2rem;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
+}
+
+.images img {
+    margin: 0.5rem;
+}
+
+#head,
+#light,
+#small {
+    margin-bottom: 0.5rem;
+}
+
+.main {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left button,
+.aright button {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+.left,
+.aright {
+    background: rgba(217, 217, 217, 0.10);
+    backdrop-filter: blur(21.16745376586914px);
+    border-radius: 2rem;
+    padding: 0.5rem 0.7rem;
+}
+
+.aright{
+    width: 1%;
+}
+
+.step
+{
+    display: flex;
+    padding: 3rem 6rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+    background: radial-gradient(213.37% 74.23% at 60.19% 51.64%, rgba(106, 40, 126, 0.90) 0%, rgba(255, 252, 232, 0.00) 100%);
+}
+
+.shelf img
+{
+    width: 10rem;
+    height: 10rem;
 }
